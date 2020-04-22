@@ -21,31 +21,68 @@
                 <div class="description line-1"> My Name Is Asfan Meliawan E1E119022</div>
                 <div class="description line-2"> Welcome To My Website</div>
                 <div class="next-steps-container">
-                    <div class="next-steps-header">Profile</div>
+                    <div class="next-steps-header">Sistem Basis Data</div>
                     <div class="next-steps-body">
                         <div class="step">
                             <div class="step-icon">
-                                <img src="img/cloneWhite.svg">
                             </div>
-                            <div class="step-text">Study At University of Halu Oleo</div>
+                            <div class="step-text">A.	Pengertian Database Management System<br >
+                                &nbsp;&nbsp;&nbsp;&nbsp;Ketika datang untuk mengatur data, kita sering mulai dengan mengkompilasi semuanya menjadi satu spreadsheet (atau tabel). Tetapi pendekatan itu tidak dapat diskalakan. Semakin banyak data membanjiri sistem, satu tabel akan menghasilkan informasi yang menyesatkan, duplikat data, dan kesalahan.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Metode yang lebih baik adalah dengan membagi data Anda menjadi tabel yang lebih kecil yang memiliki fokus yang lebih sempit. Tabel ini mengatur data Anda dengan cara yang lebih efisien dan datang bersama melalui hubungan untuk membentuk database. Dan sistem manajemen basis data adalah perangkat lunak yang menangani penyimpanan, pengambilan, dan pembaruan basis data itu.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Pengertian dari database itu sendiri adalah kumpulan data yang telah disusun dengan aturan dan ketentuan tertentu serta saling berkaitan sehingga bisa memudahkan pengguna untuk mengelola juga mendapatkan informasi yang diperlukan. Jika dilihat dari segi bahasanya, maka database juga diartikan sebagai basis data.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Sebuah data bisa disebut sebagai suatu informasi yang didapat dan disimpan, sedangkan basis sendiri merupakan perkumpulan atau tempat kumpul. Maka bisa disimpulkan jika pengertian database ialah kumpulan informasi atau data yang didapat kemudian disimpan pada sebuah file media seperti misalnya disimpan pada media komputer.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Melakukan pengolahan database dengan menggunakan media komputer diperuntukkan agar bisa memudahkan dan tentu supaya mengikuti zaman yang semakin maju seperti sekarang ini yang semuanya serba menggunakan komputer.  Pengolahan sistem database di dunia IT dikenal dengan nama DBMS atau Database Management System. Database juga diartikan mengenai kumpulan tabel untuk menyimpan informasi dan data.<br >
+                                &nbsp;&nbsp;&nbsp;&nbsp;Fungsi dari Database itu sendiri adalah antara lain,<br>
+                                1.&nbsp;	Mengelompokkan data dan informasi sehingga lebih mudah dimengerti<br>
+                                2.&nbsp;	Mencegah terjadinya duplikat data maupun inkonsistensi data<br>
+                                3.&nbsp;	Mempermudah proses penyimpanan, akses, pembaharuan, dan menghapus data.<br>
+                                4.&nbsp;	Menjaga kualitas data dan informasi yang diakses sesuai dengan yang di-input.<br>
+                                5.&nbsp;	Membantu proses penyimpanan data yang besar<br>
+                                6.&nbsp;	Membantu meningkatkan kinerja aplikasi yang membutuhkan penyimpanan data<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Serta manfaat dari Database itu sendiri adalah antara lain,<br>
+                                1.&nbsp;	Tidak Terjadi Redudansi Basis Data<br>
+                                2.&nbsp;	Integritas Data Terjaga<br>
+                                3.&nbsp;	Independensi Data Terjaga<br>
+                                4.&nbsp;	Kemudahan Berbagi Data<br>
+                                5.&nbsp;	Menjaga Keamanan Data<br>
+                                6.&nbsp;	Kemudahan Akses Data<br>
+                                <br>
+                                B.	Model Data Relasional<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Model Data Relasional adalah suatu model basis data yang menggunakan tabel dua dimensi, yang terdiri atas baris dan kolom untuk menggambarkan sebuah berkas data. Model ini menunjukkan cara mengelola/mengorganisasikan data secara fisik dalam memory sekunder, yang akan berdampak pula pada bagaimana kita mengelompokkan data dan membentuk keseluruhan data yang terkait dalam sistem yang kita buat.<br  >
+                            
+                                &nbsp;&nbsp;&nbsp;&nbsp;Relasional Key. Relasional Key terdiri dari<br>
+                                1.&nbsp;	Super key, satu atribut/kumpulan atribut yang secara unik mengidentifikasi sebuah tupel di dalam relasi (satu atau lebih field yang dapat dipilih untuk membedakan antara 1 record dengan record lainnya).<br>
+                                2.&nbsp;	Candidate key, atribut di dalam relasi yang biasanya mempunyai nilai unik  (super key dengan jumlah field yang paling sedikit<br>
+                                3.&nbsp;	Primary key, Candidate key yang dipilih untuk mengidentifikasikan tupel secara unik dalam relasi.<br>
+                                4.&nbsp;	Alternate key, Candidate key yang tidak dipilih sebagai primary key<br>
+                                5.&nbsp;	Foreign key, Atribut dengan domain yang sama yang menjadi kunci utama pada sebuah relasi tetapi pada relasi lain atribut tersebut hanya sebagai atribut biasa.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Di Basis Data ada juga yang Namanya Relasi Algebra,yaitu sekumpulan operasi yang digunakan untuk melakukan proses manipulasi data dalam rangka untuk mendapatkan informasi yang diperlukan dari database. Operasi pada relasi Algebra yaitu:<br>
+                                1.	Operasi SELECT (Selection)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Untuk memilih baris tertentu dari sebuah himpunan baris data (record) yang memenuhi kondisi dan membuang baris yang lain.<br>  
+                                2.	Operasi Project (Projection)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Untuk memilih attribut (kolom) tertentu dari himpunan / subhimpunan dan membuang yang lain.<br>
+                                3.	Operasi Himpunan<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;UNION: Relasi yang menggabungkan semua baris di R atau S dengan meniadakan duplikasi, INTERSECTION: Relasi yang terdiri dari baris yang ada di R dan juga ada di S, DIFFERENCE: Relasi yang terdiri dari semua baris di R, tetapi tidak ada di S. Relasi yang dioperasikan dengan operasi-operasi di atas harus memiliki jumlah attribut dan jenis yang sama (union compatible)<br>
+                                4.	Operasi Join<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Digunakan untuk mengkombinasikan barisbaris yang berhubungan dari dua relasi menjadi baris-baris tunggal. Notasi: R |x|<kondisi join> S Kondisi join dalam bentuk: <kondisi> AND <kondisi> AND … AND <kondisi>Operator pembandingan:  {=, <, ≤, >, ≥, ≠}<br>
+                                5.	Natural Join<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Yakni operasi equijoin yang mana yang mana pasangan attribut-attribut yang di’join’kan memiliki nama yang sama. Jika tidak sama, perlu dilakukan pengubahan nama attribut (rename) terlebih dahulu.<br>
+                                <br>
+                                C.	Entity Relationship Diagram (ERD)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Entity Relationship Diagram (ERD) adalah teknik pemodelan data yang dipresentasikan dengan gambar entitas dan relasi-relasi antar entitas dalam sebuah sistem informasi. Entity Relationship Diagram (ERD) ialah notasi grafis dalam pemodelan data Konseptual.<br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;Komponen utama dalam pemodelan sistem ERD :<br>
+                                1.&nbsp;	Entitas (Entity)<br>
+                                2.&nbsp;	Atribute (field)<br>
+                                3.&nbsp;	Relasi (Relationship)<br>
+                                </div>
                         </div>
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/stackWhite.svg">
-                            </div>
-                            <div class="step-text">Wa +62822789542</div>
-                        </div>
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/lightbulbWhite.svg">
-                            </div>
-                            <div class="step-text">Learn More About Me</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
